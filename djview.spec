@@ -4,8 +4,6 @@ Name:		djview
 Version:	3.2.5.3
 Release:	1
 Group:		X11/Applications/Graphics
-Group(de):	X11/Applikationen/Grafik
-Group(pl):	X11/Aplikacje/Grafika
 License:	non-distributable, no source
 Source0:	djvu_lin.tar.gz
 NoSource:	0
@@ -26,8 +24,6 @@ Przegl±dardka plików DjVu.
 Summary:	DjVu plugin for Netscape 4.x
 Summary(pl):	Wtyczka DjVu do Netscape 4.x
 Group:		X11/Applications/Graphics
-Group(de):	X11/Applikationen/Grafik
-Group(pl):	X11/Aplikacje/Grafika
 Requires:	%{name} = %{version}
 Requires:	netscape-common >= 4.0
 
