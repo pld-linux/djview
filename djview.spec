@@ -46,14 +46,12 @@ install -d $RPM_BUILD_ROOT{%{_bindir},%{_libdir}/netscape/plugins}
 install TRUE/djview $RPM_BUILD_ROOT%{_bindir}
 install TRUE/nsdejavu_libc6.so $RPM_BUILD_ROOT%{_libdir}/netscape/plugins
 
-gzip -9nf README.txt TRUE/license.txt
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz TRUE/{*.gz,*.html,*.jpg,*.djvu}
+%doc README.txt TRUE/{license.txt,*.html,*.jpg,*.djvu}
 %attr(755,root,root) %{_bindir}/*
 
 %files netscape
