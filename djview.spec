@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 DjVu Viewer.
 
 %description -l pl
-Przegl±dardka plików DjVu.
+Przegl±darka plików DjVu.
 
 %package netscape
 Summary:	DjVu plugin for Netscape 4.x
