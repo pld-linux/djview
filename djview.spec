@@ -23,7 +23,7 @@ Przegl±darka plików DjVu.
 Summary:	DjVu plugin for Netscape 4.x
 Summary(pl):	Wtyczka DjVu do Netscape 4.x
 Group:		X11/Applications/Graphics
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 Requires:	netscape-common >= 4.0
 
 %description netscape
