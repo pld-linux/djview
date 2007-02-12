@@ -1,5 +1,5 @@
 Summary:	DjVu Viewer
-Summary(pl):	Przegl±darka plików DjVu
+Summary(pl.UTF-8):   PrzeglÄ…darka plikÃ³w DjVu
 Name:		djview
 Version:	3.2.5.3
 Release:	1
@@ -16,12 +16,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 DjVu Viewer.
 
-%description -l pl
-Przegl±darka plików DjVu.
+%description -l pl.UTF-8
+PrzeglÄ…darka plikÃ³w DjVu.
 
 %package netscape
 Summary:	DjVu plugin for Netscape 4.x
-Summary(pl):	Wtyczka DjVu do Netscape 4.x
+Summary(pl.UTF-8):   Wtyczka DjVu do Netscape 4.x
 Group:		X11/Applications/Graphics
 Requires:	%{name} = %{version}-%{release}
 Requires:	netscape-common >= 4.0
@@ -29,7 +29,7 @@ Requires:	netscape-common >= 4.0
 %description netscape
 DjVu plugin for Netscape 4.x.
 
-%description netscape -l pl
+%description netscape -l pl.UTF-8
 Wtyczka DjVu do Netscape 4.x.
 
 %prep
