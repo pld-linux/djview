@@ -1,5 +1,5 @@
 Summary:	DjVu Viewer
-Summary(pl.UTF-8):   Przeglądarka plików DjVu
+Summary(pl.UTF-8):	Przeglądarka plików DjVu
 Name:		djview
 Version:	3.2.5.3
 Release:	1
@@ -21,7 +21,7 @@ Przeglądarka plików DjVu.
 
 %package netscape
 Summary:	DjVu plugin for Netscape 4.x
-Summary(pl.UTF-8):   Wtyczka DjVu do Netscape 4.x
+Summary(pl.UTF-8):	Wtyczka DjVu do Netscape 4.x
 Group:		X11/Applications/Graphics
 Requires:	%{name} = %{version}-%{release}
 Requires:	netscape-common >= 4.0
