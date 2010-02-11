@@ -2,7 +2,7 @@ Summary:	DjVu Viewer
 Summary(pl.UTF-8):	Przeglądarka plików DjVu
 Name:		djview
 Version:	3.2.5.3
-Release:	1
+Release:	2
 Group:		X11/Applications/Graphics
 License:	non-distributable, no source
 Source0:	djvu_lin.tar.gz
